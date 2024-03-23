@@ -1,0 +1,266 @@
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weichen Wang - Personal Web Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background: #f4f4f4;
+            position: relative;
+            height: 100%;
+        }
+        header {
+            background: #f4f4f4; /* Light grey background for header */
+            position: fixed; /* Fixed position for the header */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 60px; /* Header height */
+            display: flex;
+            align-items: center;
+            justify-content: flex-end; /* Align tabs to the right */
+            padding: 0 -40px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            z-index: 900;
+        }
+        header nav {
+            display: flex;
+            align-items: center;
+        }
+        header nav a {
+            color: #333;
+            text-decoration: none;
+            padding: 0 15px;
+            transition: color 0.3s;
+        }
+        header nav a:hover,
+        header nav a.active {
+            color: #007bff;
+        }
+        .fixed-sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 240px; /* Adjust the width as needed */
+            height: 100%;
+            background: linear-gradient(to bottom, #f2f2f2, #e6e6e6); /* Light gradual color change */
+            box-shadow: 5px 0 5px rgba(0,0,0,0.2);
+            padding: 20px;
+            overflow-y: auto;
+            z-index: 1000;
+        }
+        .main-content {
+            margin-left: 260px; /* Match the width of the sidebar */
+            padding: 30px 60px 40px; /* Increased left margin for more space */
+            background: #fff; /* White background for main content */
+            overflow-y: auto;
+            height: calc(100% - 60px); /* Subtract header height */
+            z-index: 800;
+        }
+        footer {
+            background: #f4f4f4; /* Light grey background for footer */
+            color: #333;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            width: calc(100% - 220px); /* Subtract the width of the sidebar */
+            left: 220px; /* Align with the main content */
+        }
+        li {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        a { 
+            text-decoration: none; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#research">Research</a>
+            <a href="#teaching">Teaching</a>
+            <a href="#group">Group</a>
+        </nav>
+    </header>
+    <div class="fixed-sidebar">
+        <img src="./index_files/photo.webp" alt="Weichen Wang" width="240" height="240">
+        <h2><a href="./index.html"><font color="#000000">Weichen Wang</font></a></h2>
+        <p>Assistant Professor</p><p>
+        </p><p>Innovation and Information Management</p>
+        <p>Stat Group @ HKU Business School</p>
+        <p>University of Hong Kong</p>
+        <br>
+        <p><a href="mailto:%E2%80%9Cweichenw@hku.hk%E2%80%9D"><font color="#1E90FF">Email: weichenw at hku dot hk</font></a></p>
+        <p><a href="https://scholar.google.com/citations?user=8oLq2FsAAAAJ&amp;hl=en"><font color="#1E90FF">Google Scholar</font></a></p>
+        <p><a href="https://orcid.org/0000-0002-9178-5637"><font color="#1E90FF">ORCID</font></a></p>
+    </div>
+    <div class="main-content">
+        <div id="home">
+        <br>
+        <br>
+        <br>
+
+        <section>
+            <h2>Biography</h2>
+            <p>I joined HKU in 2021 as an Assistant Professor in the area of <a href="https://www.hkubs.hku.hk/people/weichen-wang/"><font color="#1E90FF">Innovation and Information Management of HKU Business School</font></a><a>. I am also one of the members of </a><a href="https://hkubs-stat.github.io/"><font color="#1E90FF">the Statistics Group</font></a>.</p>
+            <p>I obtained my PhD in Operations Research and Financial Engineering from Princeton University in 2016, supervised by <a href="https://fan.princeton.edu/"><font color="#1E90FF">Jianqing Fan</font></a>. After graduation, I joined Two Sigma Investments as a quantitative researcher and worked on applying machine learning for equity market forecasting. I also served as a Visiting Lecturer at Princeton University for Spring 2020. Before PhD, I received my bachelor’s degree in Mathematics and Physics from Tsinghua University in 2011.</p>
+            <p>My research combines statistics and machine learning methodology with applications in econometrics and financial science. I am particularly interested in the factor structure of the financial market and real-world applications of machine learning and deep learning. </p>
+</section></div>
+
+        <div id="research">
+        <br>
+        <br>
+        <br>
+            
+        <section><a>
+            <h2>Research Interests</h2>
+                    <ul type="disc">
+                    <li> 
+                    <b>Econometric Factor analysis:</b>
+                        <br>semi-parametric factor model, robust factor analysis, random matrix theories, risk management.<br>
+                    </li><li>
+                    <b>High-dimensional statistical inference:</b>
+                        <br>large covariance estimation, graphical model inference, high-dimensional testing, variable selection.<br>
+                    </li><li>
+                    <b>Robust methodologies:</b>
+                        <br>elliptical distribution, Kendall’s Tau, Huber loss minimization, quantile regression.<br>
+                    </li><li>
+                    <b>Machine learning:</b>
+                        <br>low-rank recovery, spectral method, reinforcement learning, deep learning inference.<br>
+                    </li><li>
+                    <b>Big data applications:</b>
+                        <br>statistical modeling of genomics, brain imaging, portfolio optimization,financial market prediction, high-frequency trading.<br>
+                    </li></ul>
+
+                    
+                    <br>
+                    <br><br>
+            
+                    <h2>Publications and Preprints</h2>            
+                        </a><ul type="disc"><a>
+                            <b>Econometric Factor Analysis</b>
+                            </a><li><a> Fan, J., Liao, Y. and Wang, W. (2016). 
+                                </a><a href="https://projecteuclid.org/journals/annals-of-statistics/volume-44/issue-1/Projected-principal-component-analysis-in-factor-models/10.1214/15-AOS1364.full"><font color="#1E90FF">Projected Principal Component Analysis in Factor Models</font></a>. <i>Annals of Statistics</i>, <b>44</b>(1), 219-254.                                
+                            </li><li> Fan, J., Liu, H. and Wang, W. (2018). 
+                                <a href="https://projecteuclid.org/journals/annals-of-statistics/volume-46/issue-4/Large-covariance-estimation-through-elliptical-factor-models/10.1214/17-AOS1588.full"><font color="#1E90FF">Large Covariance Estimation through Elliptical Factor Models</font></a>. <i>Annals of Statistics</i>, <b>46</b>(4), 1383–1414.                                
+                            </li><li> Fan, J., Wang, W. and Zhong, Y. (2019). 
+                                <a href="https://www.sciencedirect.com/science/article/abs/pii/S0304407618301684"><font color="#1E90FF">Robust Covariance Estimation for Approximate Factor Models</font></a>. <i>Journal of Econometrics</i>, <b>208</b>(1), 5–22.
+                            </li>
+
+                            <br>
+                            <b>High-dimensional Statistical Inference</b>
+                            
+                            <li> Fan, J., Rigollet, P. and Wang, W. (2015).
+                                <a href="https://projecteuclid.org/journals/annals-of-statistics/volume-43/issue-6/Estimation-of-functionals-of-sparse-covariance-matrices/10.1214/15-AOS1357.full"><font color="#1E90FF">Estimation of Functionals of Sparse Covariance Matrices</font></a>. <i>Annals of Statistics</i>, <b>43</b>(6), 2706–2737.                                
+                            </li><li> Wang, W. and Fan, J. (2017). 
+                                <a href="https://projecteuclid.org/journals/annals-of-statistics/volume-45/issue-3/Asymptotics-of-empirical-eigenstructure-for-high-dimensional-spiked-covariance/10.1214/16-AOS1487.full"><font color="#1E90FF">Asymptotics of Empirical Eigen-Structure for High
+Dimensional Spiked Covariance</font></a>. <i>Annals of Statistics</i>, <b>45</b>(3), 1342–1374.      
+                            </li><li> Fan, J., Liu, H., Wang, W. and Zhu, Z. (2018).
+                                <a href="https://projecteuclid.org/journals/electronic-journal-of-statistics/volume-12/issue-2/Heterogeneity-adjustment-with-applications-to-graphical-model-inference/10.1214/18-EJS1466.full"><font color="#1E90FF">Heterogeneity Adjustment with Applications to Graphical Model Inference</font></a>. <i>Electronic Journal of Statistics</i>, <b>12</b>(2), 3908–3952.        
+                            </li><li> Fan, J., Lou, Z., Wang, W. and Yu, M. (2024).
+                                <a href="https://www.tandfonline.com/doi/full/10.1080/01621459.2024.2316364"><font color="#1E90FF">Ranking Inferences Based on the Top Choice of Multiway Comparisons</font></a>. <i>Journal of the American Statistical Association</i>, <b>0</b>(0), 1–14.                                
+                            </li>
+
+                            <br>
+                            <b>Robust Methodologies</b>
+                            
+                            <li> Fan, J., Wang, W. and Zhu, Z. (2021). 
+                                <a href="https://projecteuclid.org/journals/annals-of-statistics/volume-49/issue-3/A-shrinkage-principle-for-heavy-tailed-data--High-dimensional/10.1214/20-AOS1980.short"><font color="#1E90FF">A Shrinkage Principle for Heavy-Tailed Data:
+High-Dimensional Robust Low-Rank Matrix Recovery</font></a>. <i>Annals of Statistics</i>, <b>49</b>(3), 1239-1266. 
+                        </li><li> Wang, W., An, R. and Zhu, Z. (2024). 
+                                <a href="https://doi.org/10.1016/j.jeconom.2023.105633"><font color="#1E90FF">Volatility Prediction Comparison via Robust Volatility Proxies: An Empirical Deviation Perspective</font></a>. <i>Journal of Econometrics</i>, <b>239</b>(2), 105633. 
+                        </li>
+
+                        <br>    
+                        <b>Machine Learning</b>
+
+                        <li>Fan, J., Wang, W. and Zhong, Y. (2018).
+                            <a href="https://dl.acm.org/doi/10.5555/3122009.3242064"><font color="#1E90FF">An l-infinity Eigenvector Perturbation Bound and Its Application to Robust Covariance Estimation</font></a>. <i>Journal of Machine Learning Research</i>, <b>18</b>(207), 1–42. 
+                        </li><li>Wang, W., Han, J., Yang Z. and Wang Z. (2021).
+                            <a href="https://proceedings.mlr.press/v139/wang21j.html"><font color="#1E90FF">Global Convergence of Policy
+Gradient for Linear-Quadratic Mean-Field Control/Game in Continuous Time</font></a>. <i>International Conference on Machine Learning (ICML)</i>, 10772-10782. 
+                        </li><li>Chen, X., Liao, Y. and Wang, W. (2024).
+                            <a href="https://arxiv.org/abs/2301.00092"><font color="#1E90FF">Inference on Time Series Nonparametric Conditional Moment Restrictions Using General Sieves</font></a>. <i>Journal of Econometrics (Under Review)</i>.
+                        </li><li>Fan, J., Lou, Z., Wang, W. and Yu, M. (2024). <a href="https://arxiv.org/abs/2308.02918"><font color="#1E90FF">Spectral Ranking Inferences based on General Multiway Comparisons</font></a>. <i>Operations Research (Under Review)</i>.
+                        </li>
+
+
+                        <br>
+                        <b>Others</b>
+
+                        <li>Wang, W. and Zhang, X. (2011).
+                            <a href="https://pubmed.ncbi.nlm.nih.gov/21718480/"><font color="#1E90FF">Network-based Group Variable Selection for Detecting Expression Quantitative Trait Loci (eQTL)</font></a>. <i>BMC Bioinformatics</i>, <b>12</b>, 269.
+                        </li><li>Wang, W., Qin, Z., Feng, Z., Wang, X. and Zhang, X. (2013).
+                            <a href="https://pubmed.ncbi.nlm.nih.gov/23228854/"><font color="#1E90FF">Identifying Differentially Spliced Genes from Two Groups of RNA-seq Samples</font></a>. <i>Gene</i>, <b>518</b>(1), 164–170.
+                        </li><li>Min, K., Cheng, Z., Liu, J., Fang, Y., Wang, W., Yang, Y., Geldsetzer, P., Barnighausen, T., Yang, J., Liu, D., Chen, S. and Wang, C. (2023). 
+                            <a href="https://onlinelibrary.wiley.com/doi/10.1111/jebm.12529"><font color="#1E90FF">Early-stage Predictors of Deterioration among 3145 Non-severe SARS-CoV-2-infected People Community-isolated in Wuhan, China: A Combination of Machine Learning Algorithms and Competing Risk Survival Analyses</font></a>. <i>Journal of Evidence-Based Medicine</i>, <b>16</b>(2), 166-177.
+                        </li></ul>
+
+                    <br>
+                    <br>
+                    <br>
+                        
+                    <h2>Working Papers</h2>
+                        <ul type="disc">
+                            <li> Cao, Y., Meng, X. and Wang, W. (2024+). 
+                                Estimation of Out-of-Sample Sharpe Ratio for High Dimensional Portfolio Optimization. <i>Working Paper</i>.
+                            </li><li>Deng Y., Gao, J. and Wang W. (2024+).
+                                On Reference Policy Regulated Multi-period Mean-variance Portfolio Optimization. <i>Working Paper</i>.
+                        </li></ul>
+            
+        </section></div>
+
+        <div id="teaching">
+        <br>
+        <br>
+        <br>
+            
+        <section>
+            <h2>Teaching</h2>
+                        <ul type="disc">
+                            <li><b><i>IIMT6017:</i></b> Research Methodologies in Business Analytics. (Spring 2022, Fall 2023 at HKU)
+                            </li>
+                            <li><b><i>MSBA7032:</i></b> Quantitative Trading / AI in Finance (Spring 2024 at HKU)
+                            </li>
+                            <li><b><i>MSBA7002:</i></b> Business Statistics (Fall 2021, 2022, 2023 at HKU)
+                            </li>
+                            <li><b><i>ORF504:</i></b> Financial Econometrics (Spring 2020 at Princeton University)
+                            </li>
+                        </ul>
+        </section></div>
+
+        <div id="group">
+        <br>
+        <br>
+        <br>
+    
+        <section>
+            <h2>Research Group</h2>
+            <p>PhD Students</p>
+                        <ul type="disc">
+                            <li>Yutao Deng
+                            </li>
+                        </ul>
+            
+            <p>Research Assistants</p>
+                        <ul type="disc">
+                            <li>Ziyan Cai 
+                            </li>
+                            <li>Leda Wang
+                            </li>
+                            <li>Xizhuo Wang (now Master of Science in Computational Finance at CMU)
+                            </li>
+                        </ul>
+        </section></div>
+
+    </div>
+    <footer>
+        <p>Copyright © 2024 Weichen Wang</p>
+    </footer>
+
+</body></html>
