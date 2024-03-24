@@ -44,7 +44,7 @@
             position: fixed;
             top: 0;
             left: 0;
-            width: 240px; /* Adjust the width as needed */
+            width: 18%; /* Adjust the width as needed */
             height: 100%;
             background: linear-gradient(to bottom, #f2f2f2, #e6e6e6); /* Light gradual color change */
             box-shadow: 5px 0 5px rgba(0,0,0,0.2);
@@ -53,7 +53,7 @@
             z-index: 1000;
         }
         .main-content {
-            margin-left: 260px; /* Match the width of the sidebar */
+            margin-left: calc(18% + 20px); /* Match the width of the sidebar */
             padding: 60px 100px 40px; /* Increased left margin for more space */
             background: #fff; /* White background for main content */
             overflow-y: auto;
@@ -66,8 +66,8 @@
             text-align: center;
             padding: 10px;
             position: relative;
-            width: calc(100% - 220px); /* Subtract the width of the sidebar */
-            left: 220px; /* Align with the main content */
+            width: 82%; /* Subtract the width of the sidebar */
+            left: 18%; /* Align with the main content */
         }
         li {
             margin-top: 10px;
@@ -75,6 +75,11 @@
         }
         a { 
             text-decoration: none; 
+        }
+        img{
+            width: 100%;
+            height: auto;
+            overflow: hidden;
         }
     </style>
 </head>
@@ -88,7 +93,7 @@
         </nav>
     </header>
     <div class="fixed-sidebar">
-        <img src="./photo.webp" alt="Weichen Wang" width="240" height="240">
+        <img src="./photo.webp" alt="Weichen Wang">
         <h2><a href="./index.html"><font color="#000000">Weichen Wang</font></a></h2>
         <p>Assistant Professor</p><p>
         </p><p>Innovation and Information Management</p>
